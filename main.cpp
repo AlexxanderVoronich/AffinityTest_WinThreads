@@ -1,6 +1,5 @@
 #include <qapplication.h>
 #include "affinity.h"
-//#include "iostream.h"bla
 
 int main( int argc, char** argv )
 {
@@ -9,7 +8,7 @@ int main( int argc, char** argv )
 	AffinityTest *pMainDialog = new AffinityTest;
 	pMainDialog->show();
 	app.exec();
-
+    int temp = 666;
 	delete pMainDialog;
 	return 0;
 }
