@@ -1,6 +1,6 @@
 #include <qapplication.h>
 #include "affinity.h"
-//#include "iostream"
+//#include "iostream.h"
 
 int main( int argc, char** argv )
 {
