@@ -8,7 +8,9 @@ int main( int argc, char** argv )
 	AffinityTest *pMainDialog = new AffinityTest;
 	pMainDialog->show();
 	app.exec();
-    int temp = 999;
+
+    int temp = 888;
+
 	delete pMainDialog;
 	return 0;
 }
